@@ -1,0 +1,15 @@
+version: v2
+clean: true
+plugins:
+  - local: protoc-gen-go
+    out: mev
+    opt:
+      - paths=source_relative
+      - Mv1/tx.proto=github.com/m4ksio/silo-server;mev
+  - local: protoc-gen-go-grpc
+    out: mev
+    opt:
+      - paths=source_relative
+      - Mv1/tx.proto=github.com/m4ksio/silo-server;mev
+inputs:
+  - directory: protobuf

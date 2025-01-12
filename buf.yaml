@@ -1,0 +1,14 @@
+# For details on buf.yaml configuration, visit https://buf.build/docs/configuration/v2/buf-yaml
+version: v2
+lint:
+  use:
+    - STANDARD
+breaking:
+  use:
+    - FILE
+modules:
+  - path: protobuf
+#  - path: https://github.com/SiloMEV/sei-chain.git#branch=silo/mev_module,subdir=proto/mev/v1
+deps:
+  - buf.build/sei-protocol/cosmos-sdk
+  - buf.build/sei-protocol/third-party
