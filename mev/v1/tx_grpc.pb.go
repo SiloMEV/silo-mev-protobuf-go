@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: v1/tx.proto
 
-package mev
+package types
 
 import (
 	context "context"
