@@ -1,3 +1,3 @@
 [submodule "protobuf"]
 	path = protobuf
-	url = ssh://git@github.com/m4ksio/silo-mev-protobuf
+	url = ssh://git@github.com/SiloMEV/silo-mev-protobuf

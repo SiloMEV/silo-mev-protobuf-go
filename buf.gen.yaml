@@ -5,7 +5,7 @@ plugins:
     out: mev
     opt:
       - paths=source_relative
-      - Mv1/tx.proto=github.com/m4ksio/silo-mev-protobuf-go/types
+      - Mv1/tx.proto=github.com/SiloMEV/silo-mev-protobuf-go/types
       - Mgoogle/protobuf/duration.proto=github.com/gogo/protobuf/types,
       - Mgoogle/protobuf/struct.proto=github.com/gogo/protobuf/types,
       - Mgoogle/protobuf/timestamp.proto=github.com/gogo/protobuf/types,
@@ -16,7 +16,7 @@ plugins:
     out: mev
     opt:
       - paths=source_relative
-      - Mv1/tx.proto=github.com/m4ksio/silo-mev-protobuf-go/mev
+      - Mv1/tx.proto=github.com/SiloMEV/silo-mev-protobuf-go/mev
   - local: protoc-gen-grpc-gateway
     out: mev
     opt:

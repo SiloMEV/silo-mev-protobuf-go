@@ -1,4 +1,4 @@
-module github.com/m4ksio/silo-mev-protobuf-go
+module github.com/SiloMEV/silo-mev-protobuf-go
 
 go 1.21
 
